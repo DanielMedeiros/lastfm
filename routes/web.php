@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 /*API ROUTES*/
 
-$this->get('/clientes-api','APIController@getClientesAPI');
+Route::get('/clientes-api','APIController@getClientesAPI');

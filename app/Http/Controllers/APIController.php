@@ -26,9 +26,9 @@ class APIController extends Controller
     		
         echo $result->getBody()->getContents();
         
-        $resultado = json_decode((string) $result->getBody()->getContents(), true);
+      /*  $resultado = json_decode((string) $result->getBody()->getContents(), true);
 
-        echo $resultado['artist'];
+        echo $resultado['artist'];*/
 /*
         foreach($resultado as $result){
             echo "<p>" . $result->artist . " - <b>".  $result->album ."</b></p><br>";
